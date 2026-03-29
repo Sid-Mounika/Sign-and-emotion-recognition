@@ -1,2 +1,79 @@
-# Sign-and-emotion-recognition
+🎯 AI-Based Emotion & Sign Language Detection System
+🧠 Overview
+
+This project is a real-time AI application that detects facial emotions and hand sign gestures using deep learning and computer vision. It uses a webcam to capture live video and provides instant predictions with an interactive interface.
+
+
+🚀 Features
+🎥 Real-time webcam detection
+😊 Emotion recognition (7 classes)
+✋ Sign language detection (5 gestures)
+📊 Live probability visualization
+🔐 Login interface
+📈 Performance metrics (accuracy, confusion matrix, ROC curve)
+🌐 User-friendly UI using Streamlit
+
+
+
+🛠️ Technologies Used
+Python
+OpenCV
+MediaPipe
+TensorFlow / Keras
+Streamlit
+NumPy, Pandas
+Matplotlib, Seaborn
+
+
+
+🤖 Models
+Emotion Detection
+
+CNN-based model
+Input: 48x48 grayscale image
+Output: 7 emotions
+Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
+Sign Language Detection
+
+Neural Network model
+Input: 63 hand landmark features
+Output: 5 signs
+Hello, Yes, No, Thank You, Welcome
+📊 Results
+✅ Accuracy: 99.8% (Sign Detection)
+✅ High precision, recall, and F1-score
+📉 Includes confusion matrix and ROC curve
+
+
+
+💡 Use Cases
+Assistive technology for hearing/speech impaired
+Human-computer interaction
+Emotion-aware AI systems
+Smart surveillance
+
+
+▶️ How to Run
+pip install -r requirements.txt
+streamlit run app.py
+
+
+📁 Project Structure
+├── app.py
+├── facialemotionmodel.h5
+├── sign_model.h5
+├── wallpapers/
+├── results/
+└── README.md
+
+
+📸 Screenshots
+
+(Add your project screenshots here)
+
+
+👩‍💻 Author
+
+Siddam Mounika
+Python Developer | AI & Deep Learning Enthusiast
 AI-based real-time Emotion and Sign Language Detection system using Deep Learning and Computer Vision. Built with TensorFlow, OpenCV, MediaPipe, and Streamlit. Detects facial emotions and hand gestures via webcam with live predictions, probability scores, and an interactive user interface.
